@@ -25,9 +25,6 @@ CComplex operator *(const CComplex &lhs, const CComplex &rhs)
 
 	CComplex result(A - B, B - C);
 
-// 	CComplex result(lhs.m_real * rhs.m_real - lhs.m_imag * rhs.m_imag,
-// 		lhs.m_imag * rhs.m_real + lhs.m_real * rhs.m_imag);
-
 	return result;
 }
 
